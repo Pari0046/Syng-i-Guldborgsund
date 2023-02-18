@@ -1,0 +1,83 @@
+<!-- Instruktion til webbrowser om at vi kører HTML5 -->
+<!DOCTYPE html>
+
+<!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
+<html lang="da">
+
+<!-- I <head> har man opsætning - det ser brugeren ikke, men det fortæller noget om siden -->
+<head>
+    <!-- Sætter tegnsætning til utf-8 som bl.a. tillader danske bogstaver -->
+    <meta charset="utf-8">
+
+    <!-- Titel som ses oppe i browserens tab mv. -->
+    <title>Sigende titel</title>
+
+    <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
+    <meta name="robots" content="All">
+    <meta name="author" content="Udgiver">
+    <meta name="copyright" content="Information om copyright">
+
+    <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link href="css/mmdgrid.css" rel="stylesheet" type="text/css">
+
+    <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<!-- i <body> har man alt indhold på siden som brugeren kan se -->
+
+<!--Design, funktion og kvalitet: Billeder + tekst begynder-->
+<div class="container mt-5 TextColor">
+	<div class="row h-auto justify-content-center">
+
+		<!--Design billed+beskrivelse-->
+		<div class="col-12 col-sm-6 col-md-3 gy-5 ">
+			<div class="Design text-center OverskriftColor">Design</div>
+			<div class="Images gy-2 ">
+				<img src="Images/logo.png" alt="Mobilcover">
+			</div>
+			<div class="BeskrivelseText ps-3">
+				<p>Vores design er inspireret af den seneste mode og harmoniserer i både form og funktion. Så du kan få et veldesignet
+					mobilcover som også fungerer funktionelt.</p>
+			</div>
+		</div>
+
+		<!--Funktion billed+beskrivelse-->
+		<div class="col-12 col-sm-6 col-md-3 gy-5  ">
+			<div class="Funktion text-center OverskriftColor">Funktion</div>
+			<div class="Images">
+				<img src="Images/logo.png" alt="Mobilcover med tandhjul">
+			</div>
+			<div class="BeskrivelseText">
+				<p>
+					Da mobilen er blevet en af vores mest anvendte værktøjer i hverdagen, stræber vi efter at forenkle
+					hverdagen for mennesker i bevægelse og har derfor fokus på udviklingen af nye innovative funktioner
+					til vores mobilcovers for at give de mest optimale, funktionelle og moderigtige covers.
+				</p>
+			</div>
+		</div>
+
+		<!--Kvalitet billed+beskrivelse-->
+		<div class="col-12 col-md-3 gy-5 ">
+			<div class="Kvalitet text-center OverskriftColor">Kvalitet</div>
+			<div class="Images">
+				<img src="Images/logo.png" alt="Mobilcover med kvalitetsmærke">
+			</div>
+			<div class="BeskrivelseText">
+				<p>
+					Vores produkter er lavet af nøje udvalgte materialer af højeste kvalitet og testes før levering for
+					at opnå vores bestræbelser på at levere mobilcovers af højeste kvalitet.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Design, funktion og kvalitet: Billeder + tekst begynder-->
+
+<body>
+
+<!-- Her skal sidens indhold ligge -->
+
+</body>
+</html>
