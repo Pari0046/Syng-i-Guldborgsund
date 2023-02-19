@@ -46,3 +46,17 @@ img {
 }
 
 /* Box slut */
+
+/* Indhold, tekst start */
+
+.container{
+    border: 5px solid black;
+}
+
+.col-12{
+    margin: auto;
+    padding: 50px;
+
+}
+
+/* Indhold, tekst slut */
