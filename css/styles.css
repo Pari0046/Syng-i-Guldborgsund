@@ -36,28 +36,3 @@ img {
     height: auto; /* Højden skal tilpasse sig */
 }
 
-/* Box start */
-
-.box{
-    background-color: #FEA9A1;
-    margin: 200px;
-    padding: 50px;
-    border: 5px solid black;
-}
-
-/* Box slut */
-
-/* Indhold, tekst start */
-
-.container{
-    border: 5px solid black;
-}
-
-.col-12{
-    margin: auto;
-    padding: 50px;
-
-}
-
-/* Indhold, tekst slut */
-
