@@ -36,3 +36,12 @@ img {
     height: auto; /* Højden skal tilpasse sig */
 }
 
+/* Box start */
+
+.box{
+    background-color: lightsteelblue;
+    margin: 200px;
+    padding: 50px;
+}
+
+/* Box slut */
