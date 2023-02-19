@@ -39,9 +39,10 @@ img {
 /* Box start */
 
 .box{
-    background-color: lightsteelblue;
+    background-color: #FEA9A1;
     margin: 200px;
     padding: 50px;
+    border: 5px solid black;
 }
 
 /* Box slut */
