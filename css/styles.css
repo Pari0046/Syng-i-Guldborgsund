@@ -36,5 +36,67 @@ img {
     height: auto; /* Højden skal tilpasse sig */
 }
 
+.overskrift{
+    margin: auto;
+    padding: 50px;
+}
 
+.Billede1{
+    float: left;
+    width: 500px;
+    padding: 25px;
+}
 
+.Billedetekst1{
+    padding: 25px;
+}
+
+.Billede2{
+    float: left;
+    width: 500px;
+    padding: 25px;
+}
+
+.Billedetekst2{
+    padding: 25px;
+}
+
+.Billede3{
+    float: left;
+    width: 500px;
+    padding: 25px;
+}
+
+.Billedetekst3{
+    padding: 25px;
+}
+
+.Billede4{
+    float: left;
+    width: 500px;
+    padding: 25px;
+}
+
+.Billedetekst4{
+    padding: 25px;
+}
+
+.Billede5{
+    float: left;
+    width: 500px;
+    padding: 25px;
+}
+
+.Billedetekst5{
+    padding: 25px;
+}
+
+.Billede6{
+    float: left;
+    width: 500px;
+    padding: 25px;
+}
+
+.Billedetekst6{
+    padding: 25px;
+}
