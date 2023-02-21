@@ -25,6 +25,187 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
+<title>Background with Different Shapes and Colors</title>
+<style>
+    body {
+        background-color: #fff6e8;
+    }
+
+    .shape {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        z-index: -1;
+    }
+
+    #circle1 {
+        background-color: #FEA9A1;
+        width: 300px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        top: 150px;
+        left: 25px;
+        transform: rotate(170deg);
+        opacity: 45%;
+    }
+
+    #rectangle1 {
+        background-color: #7CBFBC;
+        width: 150px;
+        height: 400px;
+        position: absolute;
+        top: 200px;
+        right: 100px;
+        border-radius: 50px;
+        transform: rotate(40deg);
+        opacity: 50%;
+        background: linear-gradient(to right, #7CBFBC, #FEA9A1);
+    }
+
+    #triangle1 {
+        width: 0;
+        height: 0;
+        border-bottom: 200px solid #F6C547;
+        border-left: 100px solid transparent;
+        position: absolute;
+        bottom: 150px;
+        left: 50px;
+        transform: rotate(60deg);
+        opacity: 30%;
+    }
+
+    #circle2 {
+        background-color: #F6C547;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 375px;
+        left: 50px;
+        background: linear-gradient(to right, #7CBFBC,#C39E40, #FEA9A1);
+        opacity: 70%;
+    }
+
+    #rectangle2 {
+        background-color: #C39E40;
+        width: 250px;
+        height: 150px;
+        position: absolute;
+        bottom: 100px;
+        left: 150px;
+        transform: rotate(-25deg);
+        border-radius: 50px;
+        opacity: 50%;
+        background: linear-gradient(to right, #fff6e8,#C39E40, #FEA9A1);
+    }
+
+    #triangle2 {
+        width: 0;
+        height: 0;
+        border-top: 200px solid #7CBFBC;
+        border-right: 100px solid transparent;
+        position: absolute;
+        bottom: 150px;
+        right: 100px;
+        opacity: 60%;
+    }
+
+    #circle3 {
+        background-color: #FEA9A1;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        position: absolute;
+        top: 200px;
+        left: 300px;
+        transform: rotate(170deg);
+        opacity: 70%;
+        background: linear-gradient(to right, #FEA9A1, #7CBFBC);
+    }
+
+    #circle4 {
+        background-color: #FEA9A1;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: absolute;
+        top: 330px;
+        left: 300px;
+        transform: rotate(170deg);
+        opacity: 70%;
+        background: linear-gradient(to right, #FEA9A1, #7CBFBC);
+    }
+
+    #circle5 {
+        background-color: #FEA9A1;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50px;
+        left: 80px;
+        transform: rotate(170deg);
+        opacity: 70%;
+        background: linear-gradient(to right, #FEA9A1, #7CBFBC);
+    }
+
+    #circle6 {
+        background-color: #FEA9A1;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        position: absolute;
+        top: 250px;
+        left: 275px;
+        transform: rotate(170deg);
+        opacity: 70%;
+        background: linear-gradient(to right, #FEA9A1, #7CBFBC);
+    }
+
+    #circle7 {
+        background-color: #FEA9A1;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        position: absolute;
+        top: 375px;
+        left: 270px;
+        transform: rotate(190deg);
+        opacity: 70%;
+        background: linear-gradient(to right, #FEA9A1, #7CBFBC);
+    }
+
+    #circle8 {
+        background-color: #FEA9A1;
+        width: 30px;
+        height: 60px;
+        border-radius: 50%;
+        position: absolute;
+        top: 140px;
+        left: 100px;
+        transform: rotate(230deg);
+        opacity: 70%;
+        background: linear-gradient(to right, #FEA9A1, #7CBFBC);
+    }
+</style>
+
+<div class="shape" id="circle1"></div>
+<div class="shape" id="rectangle1"></div>
+<div class="shape" id="triangle1"></div>
+<div class="shape" id="circle2"></div>
+<div class="shape" id="rectangle2"></div>
+<div class="shape" id="triangle2"></div>
+<div class="shape" id="circle3"></div>
+<div class="shape" id="circle4"></div>
+<div class="shape" id="circle5"></div>
+<div class="shape" id="circle6"></div>
+<div class="shape" id="circle7"></div>
+<div class="shape" id="circle8"></div>
+
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 
 <body>
@@ -71,7 +252,7 @@
 
 </div>
 
-<br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 
 <div class="Emne3">
 
